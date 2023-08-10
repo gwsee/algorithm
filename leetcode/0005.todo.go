@@ -1,4 +1,5 @@
 package leetcode
+
 //https://leetcode.cn/problems/longest-palindromic-substring/
 
 func longestPalindrome(s string) string {
@@ -9,7 +10,7 @@ func longestPalindrome(s string) string {
 //
 //如果字符串的反序与原始字符串相同，则该字符串称为回文字符串。
 //
-// 
+//
 //
 //示例 1：
 //
@@ -20,7 +21,7 @@ func longestPalindrome(s string) string {
 //
 //输入：s = "cbbd"
 //输出："bb"
-// 
+//
 //
 //提示：
 //

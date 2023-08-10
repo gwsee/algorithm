@@ -1,10 +1,9 @@
 package leetcode
 
-//https://leetcode.cn/problems/zigzag-conversion/
+// https://leetcode.cn/problems/zigzag-conversion/
 func convert(s string, numRows int) string {
 
 }
-
 
 //将一个给定字符串 s 根据给定的行数 numRows ，以从上往下、从左到右进行 Z 字形排列。
 //
@@ -18,7 +17,7 @@ func convert(s string, numRows int) string {
 //请你实现这个将字符串进行指定行数变换的函数：
 //
 //string convert(string s, int numRows);
-// 
+//
 //
 //示例 1：
 //
@@ -36,7 +35,7 @@ func convert(s string, numRows int) string {
 //
 //输入：s = "A", numRows = 1
 //输出："A"
-// 
+//
 //
 //提示：
 //

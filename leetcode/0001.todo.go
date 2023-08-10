@@ -3,6 +3,7 @@ package leetcode
 //https://leetcode.cn/problems/two-sum/
 
 func twoSum(nums []int, target int) []int {
+
 	return nil
 }
 
@@ -13,7 +14,7 @@ func twoSum(nums []int, target int) []int {
 //
 //你可以按任意顺序返回答案。
 //
-// 
+//
 //
 //示例 1：
 //
@@ -28,7 +29,7 @@ func twoSum(nums []int, target int) []int {
 //
 //输入：nums = [3,3], target = 6
 //输出：[0,1]
-// 
+//
 //
 //提示：
 //
@@ -36,6 +37,6 @@ func twoSum(nums []int, target int) []int {
 //-109 <= nums[i] <= 109
 //-109 <= target <= 109
 //只会存在一个有效答案
-// 
+//
 //
 //进阶：你可以想出一个时间复杂度小于 O(n2) 的算法吗？

@@ -10,7 +10,7 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 //
 //算法的时间复杂度应该为 O(log (m+n)) 。
 //
-// 
+//
 //
 //示例 1：
 //
@@ -22,9 +22,9 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 //输入：nums1 = [1,2], nums2 = [3,4]
 //输出：2.50000
 //解释：合并数组 = [1,2,3,4] ，中位数 (2 + 3) / 2 = 2.5
-// 
 //
-// 
+//
+//
 //
 //提示：
 //

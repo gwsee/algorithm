@@ -15,7 +15,7 @@ func First(num int64) (res int64) {
 	return First(num-1) + First(num-2)
 }
 
-//Second 参考https://www.wangt.cc/2021/04/%E8%9E%BA%E6%97%8B%E6%8A%98%E7%BA%BF-%E7%AC%AC%E4%B9%9D%E5%B1%8A%E8%93%9D%E6%A1%A5%E6%9D%AFc-cb%E7%BB%84/
+// Second 参考https://www.wangt.cc/2021/04/%E8%9E%BA%E6%97%8B%E6%8A%98%E7%BA%BF-%E7%AC%AC%E4%B9%9D%E5%B1%8A%E8%93%9D%E6%A1%A5%E6%9D%AFc-cb%E7%BB%84/
 func Second(x, y float64) (res float64) {
 	var n float64
 	if math.Abs(x) <= y && y > 0 { //上

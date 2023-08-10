@@ -1,6 +1,6 @@
 package leetcode
-//https://leetcode.cn/problems/string-to-integer-atoi/
 
+//https://leetcode.cn/problems/string-to-integer-atoi/
 
 //请你来实现一个 myAtoi(string s) 函数，使其能将字符串转换成一个 32 位有符号整数（类似 C/C++ 中的 atoi 函数）。
 //
@@ -16,7 +16,7 @@ package leetcode
 //
 //本题中的空白字符只包括空格字符 ' ' 。
 //除前导空格或数字后的其余字符串外，请勿忽略 任何其他字符。
-// 
+//
 //
 //示例 1：
 //
