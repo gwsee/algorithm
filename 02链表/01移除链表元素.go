@@ -15,6 +15,25 @@ type ListNode struct {
 	Next *ListNode
 }
 
+var base ListNode
+var arr = []int{1, 2, 3, 41, 1, 3, 4, 1, 23, 4}
+
+func initF1() {
+	base = ListNode{
+		Val:  1,
+		Next: nil,
+	}
+	loop := &base
+	for _, v := range arr {
+		temp := ListNode{
+			Val:  v,
+			Next: nil,
+		}
+		loop.Next = &temp
+		loop = &temp
+	}
+}
+
 // 直接使用原来的链表来进行移除节点操作
 func fun11(head *ListNode, val int) *ListNode {
 	// 删除头结点
