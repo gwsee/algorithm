@@ -26,11 +26,22 @@ func testF1() {
 	//fmt.Println(string(by))
 }
 func testF2() {
-	my1 := my
-	my1.addAtHead(100)
-	my1.addAtTail(1)
-	my1.addAtIndex(2, 5)
-	fmt.Println(my1.get(3))
-	my1.deleteAtIndex(3)
-	fmt.Println(my1.get(3))
+	//单链表测试
+	//my1 := my
+	//my1.addAtHead(100)
+	//my1.addAtTail(1)
+	//my1.addAtIndex(2, 5)
+	//fmt.Println(my1.get(3))
+	//my1.deleteAtIndex(3)
+	//fmt.Println(my1.get(3))
+
+	//双链表测试
+	my2 := initDoubleLink()
+	my2.AddAtHead(55)
+	my2.AddAtTail(3)
+	my2.AddAtIndex(1, 22)
+	fmt.Println(my2.Get(1))
+	my2.DeleteAtIndex(1)
+	fmt.Println(my2.Get(1))
+
 }
