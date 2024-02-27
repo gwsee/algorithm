@@ -8,8 +8,8 @@ package main
 
 在对比后续轮次的时候的较大值(high),是否可能是目标(target)
 
-如果可能是的写法 就用 high = mid - 1 ; 然后 用low<=high
-如果不可能是的写法    high = mid;      然后 用low<high
+	如果可能是的写法 就用 high = mid - 1 ; 然后 用low<=high
+	如果不可能是的写法    high = mid;      然后 用low<high
 */
 
 // 左闭右闭区间
