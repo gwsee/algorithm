@@ -7,13 +7,14 @@ import (
 
 func main() {
 	//testF1()
-	testF2()
+	//testF2()
+	testF4()
 }
 
 func init() {
-	initF1()
-	initF2()
-
+	//initF1()
+	//initF2()
+	initF4()
 	return
 }
 
