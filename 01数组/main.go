@@ -12,7 +12,7 @@ func main() {
 	//fmt.Println(fun12(arr00, 2))
 
 	////移除元素
-	var arr1 = []int{3, 2, 2, 3,1,3,2,4,333,3,3,3,3,3}
+	var arr1 = []int{3, 2, 2, 3, 1, 3, 2, 4, 333, 3, 3, 3, 3, 3}
 	fmt.Println(fun20(arr1, 3))
 	fmt.Println(fun21(arr1, 3))
 	fmt.Println(fun22(arr1, 3))

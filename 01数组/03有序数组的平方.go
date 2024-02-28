@@ -1,4 +1,5 @@
 package main
+
 /**
 给你一个按 非递减顺序 排序的整数数组 nums，返回 每个数字的平方 组成的新数组，要求也按 非递减顺序 排序。
 
@@ -11,7 +12,7 @@ package main
 
 输入：nums = [-7,-3,2,3,11]
 输出：[4,9,9,49,121]
- */
+*/
 // 暴力解法
 func fun31(arr []int) (res []int) {
 	for _, v := range arr {
