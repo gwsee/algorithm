@@ -1,5 +1,10 @@
 package main
 
+import (
+	"encoding/json"
+	"fmt"
+)
+
 /*
 题意：删除链表中等于给定值 val 的所有节点。
 
@@ -64,4 +69,12 @@ func fun12(head *ListNode, val int) *ListNode {
 		}
 	}
 	return dummyHead.Next
+}
+func testF1() {
+	//方法1
+	by, _ := json.Marshal(fun11(&base, 1))
+	fmt.Println(string(by))
+	////方法2
+	//by, _ := json.Marshal(fun12(&base, 1))
+	//fmt.Println(string(by))
 }
