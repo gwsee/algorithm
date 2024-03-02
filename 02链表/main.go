@@ -5,7 +5,8 @@ func main() {
 	//testF2()
 	//testF4()
 	//testF5()
-	testF6()
+	//testF6()
+	testF7()
 }
 
 func init() {
@@ -13,7 +14,8 @@ func init() {
 	//initF2()
 	//initF4()
 	//initF5()
-	initF6()
+	//initF6()
+	initF7()
 	return
 }
 
