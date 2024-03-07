@@ -63,7 +63,7 @@ func testF4() {
 	printNode4(&node4)
 }
 
-func printNode4(head *ListNode)  {
+func printNode4(head *ListNode) {
 	if head == nil {
 		return
 	}

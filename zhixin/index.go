@@ -1,4 +1,4 @@
-package zhixin
+package main
 
 import (
 	"errors"

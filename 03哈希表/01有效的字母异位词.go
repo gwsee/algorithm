@@ -12,7 +12,7 @@ import "fmt"
 
 说明: 你可以假设字符串只包含小写字母。
 
- */
+*/
 
 func isAnagram(s string, t string) bool {
 	record := [26]int{}
@@ -24,7 +24,7 @@ func isAnagram(s string, t string) bool {
 		record[r-rune('a')]--
 	}
 
-	return record == [26]int{}   // record数组如果有的元素不为零0，说明字符串s和t 一定是谁多了字符或者谁少了字符。
+	return record == [26]int{} // record数组如果有的元素不为零0，说明字符串s和t 一定是谁多了字符或者谁少了字符。
 }
 func isAnagram2(s string, t string) bool {
 	if len(s) != len(t) {
@@ -47,10 +47,10 @@ func isAnagram2(s string, t string) bool {
 	}
 	return true
 }
-func testF1()  {
-	fmt.Println(isAnagram("anagram","nagaram"))
-	fmt.Println(isAnagram("rat","car"))
+func testF1() {
+	fmt.Println(isAnagram("anagram", "nagaram"))
+	fmt.Println(isAnagram("rat", "car"))
 	fmt.Println("遍历方法2")
-	fmt.Println(isAnagram2("anagram","nagaram"))
-	fmt.Println(isAnagram2("rat","car"))
+	fmt.Println(isAnagram2("anagram", "nagaram"))
+	fmt.Println(isAnagram2("rat", "car"))
 }

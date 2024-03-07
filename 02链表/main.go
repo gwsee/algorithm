@@ -18,5 +18,3 @@ func init() {
 	initF7()
 	return
 }
-
-

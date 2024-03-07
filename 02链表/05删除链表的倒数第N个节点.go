@@ -6,11 +6,11 @@ import "fmt"
 给你一个链表，删除链表的倒数第 n 个结点，并且返回链表的头结点。
 
 进阶：你能尝试使用一趟扫描实现吗？
- */
+*/
 var node5 ListNode
-var arr5 = []int{1,2,3,4,5,6,7}
+var arr5 = []int{1, 2, 3, 4, 5, 6, 7}
 
-func initF5()  {
+func initF5() {
 	var loop *ListNode
 	for _, v := range arr5 {
 		if loop == nil {
@@ -30,15 +30,15 @@ func initF5()  {
 	}
 }
 
-func testF5()  {
+func testF5() {
 	printNode4(&node5)
-	removeNthFromEnd(&node5,2)
+	removeNthFromEnd(&node5, 2)
 	fmt.Println("remove after")
 	printNode4(&node5)
 }
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	dummyHead := &ListNode{}
-	dummyHead.Next = head  //使用虚拟节点 避免考虑头节点的问题
+	dummyHead.Next = head //使用虚拟节点 避免考虑头节点的问题
 	cur := head
 	prev := dummyHead
 	i := 1

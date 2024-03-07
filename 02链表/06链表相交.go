@@ -1,20 +1,22 @@
 package main
+
 /**
 给你两个单链表的头节点 headA 和 headB ，
 	请你找出并返回两个单链表相交的起始节点。如果两个链表没有交点，返回 null 。
- */
+*/
 
 var node61 ListNode
 var node62 ListNode
-var arr61 = []int{32,341,221,21}
-var arr62 = []int{2,1,2}
-func initF6()  {
+var arr61 = []int{32, 341, 221, 21}
+var arr62 = []int{2, 1, 2}
+
+func initF6() {
 	initF61()
 	initF62()
-	var sames = []int{5,2,3}
+	var sames = []int{5, 2, 3}
 	var nodeSame ListNode
 	var loopSame *ListNode
-	for _,v:=range sames{
+	for _, v := range sames {
 		if loopSame == nil {
 			nodeSame = ListNode{
 				Val:  v,
@@ -23,7 +25,7 @@ func initF6()  {
 			loopSame = &nodeSame
 			continue
 		}
-		temp:=ListNode{
+		temp := ListNode{
 			Val:  v,
 			Next: nil,
 		}
@@ -72,8 +74,8 @@ func initF62() {
 	}
 }
 
-func testF6()  {
-	same:=getIntersectionNode2(&node61,&node62)
+func testF6() {
+	same := getIntersectionNode2(&node61, &node62)
 	printNode4(same)
 }
 
@@ -100,7 +102,7 @@ func getIntersectionNode1(headA, headB *ListNode) *ListNode {
 		step = lenB - lenA
 		fast, slow = headB, headA
 	}
-	for i:=0; i < step; i++ {
+	for i := 0; i < step; i++ {
 		fast = fast.Next
 	}
 	// 遍历两个链表遇到相同则跳出遍历
@@ -111,9 +113,8 @@ func getIntersectionNode1(headA, headB *ListNode) *ListNode {
 	return fast
 }
 
-
 func getIntersectionNode2(headA, headB *ListNode) *ListNode {
-	l1,l2 := headA, headB
+	l1, l2 := headA, headB
 	for l1 != l2 {
 		if l1 != nil {
 			l1 = l1.Next
