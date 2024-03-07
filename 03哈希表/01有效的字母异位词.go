@@ -11,7 +11,6 @@ import "fmt"
 示例 2: 输入: s = "rat", t = "car" 输出: false
 
 说明: 你可以假设字符串只包含小写字母。
-
 */
 
 func isAnagram(s string, t string) bool {
