@@ -42,6 +42,7 @@ func twoSum2(nums []int, target int) []int {
 	}
 	return []int{}
 }
+
 func testF4() {
 	target := 10
 	arrs := []int{3, 5, 4, 1, 7, 2, 8}
