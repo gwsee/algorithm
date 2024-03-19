@@ -1,5 +1,6 @@
 package main
 
 func main() {
-	testF1()
+	//testF1()
+	testF2()
 }
